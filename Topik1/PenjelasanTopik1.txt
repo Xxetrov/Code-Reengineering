@@ -1,0 +1,12 @@
+Kevin Jason Daniel - 2501991025
+Alexssandro Nicholson Riandi - 2501984442
+Vincent - 2501992343
+
+Topik Kelompok 1:
+
+Large class:
+Pada code ini terdapat smelly code berjenis large class yaitu, salah satu jenis code smell yang terjadi ketika suatu kelas memiliki terlalu banyak tugas atau tanggung jawab sehingga menyebabkan kelas tersebut sulit dipahami dan tidak fleksibel. Dalam code ini solusinya adalah untuk memecah method setCredit,getCredit,dan hasCredit pada class Customer.java dan membuat class baru yaitu Credit.java. Dengan itu kita bisa memanggil method yang ada di Credit.java menggunakan objek yang ada di Customer.
+
+Primitive Obsession:
+Pada code ini terdapat smelly code berjenis Primitive Obsession yaitu, sebuah jenis code smell yang terjadi ketika ada sebuah program menggunakan primitive data type secara berlebih sehingga code menjadi tidak efektif. Dalam code ini solusinya adalah dengan menghapus variable weapon,weaponType, armor,armorType dan membuat 2 class baru yaitu weapon dan armor. masing-masing dari class tersebut berisi sebuah setter getter serta variabel yang sesuai. Class Character bisa memanggil method dari 2 class tersebut menggunakan objek weapon dan juga armor.
+
