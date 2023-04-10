@@ -1,0 +1,7 @@
+Topik Kelompok 3 
+
+Switch Statement
+Pada code ini terdapat smell code yang berjenis Switch Statement yang terjadi karena switch statement dipakai secara berulang-ulang dan membuat code terlalu panjang, sulit dibaca, atau sulit dimengerti, sehingga menyebabkan code menjadi sulit dimaintenance dan menyulitkan dalam mengidentifikasi dan memperbaiki bug. Solusi untuk menyelesaikan smell code ini adalah dengan merefactor code pada bagian printPilihanOperasi sehingga dapat terhindari dari penggunaan code yang panjang dan kompleks.
+
+Temporary Field
+Pada code ini terdapat smell code yang berjenis Temporary Field yang terjadi karena terdapat sebuah variabel yang hanya digunakan sementara waktu dalam suatu class atau method, kemudian tidak digunakan lagi setelah proses selesai. Kondisi ini dapat menyebabkan code menjadi tidak efisien dan sulit dipelihara karena variabel tersebut mengambil ruang pada memori dan tidak memberikan manfaat apapun pada program. Solusi untuk menyelesaikan smell code ini adalah dengan membuat Class baru yaitu Class Total sehingga variabel hanya perlu dideklarasikan sekali untuk digunakan diberbagai bagian program.
