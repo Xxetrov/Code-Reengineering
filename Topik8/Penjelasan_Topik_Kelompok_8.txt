@@ -1,0 +1,7 @@
+Topik Kelompok 8
+
+Dead Code
+Pada code ini terdapat smell code yang berjenis Dead Code yang terjadi ketika ada code yang tidak pernah dipanggil, fungsi yang tidak pernah digunakan, atau blok code yang tidak berguna. Pada code yang diberikan terdapat terdapat Dead code pada method setPrice() karena constructor Clothes sudah memiliki parameter price sehingga setPrice menjadi code yang tidak berguna. 
+
+Speculative Generality
+Pada code ini terdapat smell code yang berjenis Speculative Generality yang terjadi ketika adanya pengembangan yang berlebihan pada suatu fitur atau fungsionalitas yang mungkin tidak akan digunakan atau diperlukan di masa depan. Solusi untuk menyelesaikan smell code ini adalah dengan merefactor code dengan menghapus atau menyederhanakan fungsionalitas yang tidak diperlukan seperti public static void calculate(double num1, double num2, String operator) if (operator.equals("+")) menjadi public static void add(double num1, double num2)

@@ -1,0 +1,8 @@
+Penjelasan Topik 10
+
+Middleman
+Middleman merupakan sebuah smelly code dimana sebuah class hanya berfungsi sebagai perantar yaitu mengerjakan tugas class lain. Jadi dalam topik INI kita menghampus 2 kali pangilan sehingga dari .getWeapon().weapontype(); menjadi .weapontype(); sehingga kita tidak perlu menggunakan kedua funtion tersebut untuk mendapatkan hasil yang sama. cara kita mengimplementasikannya adalah dengan menambahkan class baru di dalam file warrior.java yaitu public void weapontype(){ weapon.weapontype(); }. sehingga dia dapat memangilakan weapontype dari weapon.java.
+
+Incomplete Library Classes 
+Incomplete merupakan code smell dimana sebuah class library memiliki tidak mempunyai metode yang diperlukan. Hal ini dapat mengakibatkan code menjadi lebih ribet karena harus menulis code tambahan sendiri untuk metode yang tidak ada. 
+Dalam topik 10 incomplete menambahkan beberapa code kedalam main sehingga dapat memasukan data dan mengoutput keluar yang diperlukan

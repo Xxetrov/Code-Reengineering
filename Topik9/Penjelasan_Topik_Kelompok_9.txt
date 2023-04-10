@@ -1,0 +1,7 @@
+Topik Kelompok 9
+
+Inappropriate Intimacy
+Pada code ini terdapat smell code yang berjenis Inappropriate Intimacy yang terjadi ketika satu class menggunakan banyak metode atau variabel dari classs lain, atau ketika dua class saling memanggil satu sama lain secara langsung tanpa memperhatikan lapisan abstraksi yang tepat. Solusi untuk menyelesaikan smell code ini adalah dengan menggunakan metode Dependency Injection. Yang berupa pemasukkan objek class lain sebagai parameter constructor sehingga class dapat mengakses fungsionalitas dari classs lain tanpa bergantung langsung pada kelas tersebut. Contohnya dengan memasukkan public String getAddress() dan public String getName() ke class Customer.
+
+Feature Envy
+Pada code ini terdapat smell code yang berjenis Feature Envy yang terjadi ketika sebuah class atau method menggunakan terlalu banyak fitur atau data dari class atau method lain. Soluai untuk menyelesaikan smell code ini adalah merefactor code dengan memindahkan kode yang berkaitan ke class yang tepat atau membuat method baru yang khusus untuk tugas-tugas tersebut seperti pada code public String GetFullAddress(ContactInfo info) yang dipindahkan kedalam class User dari class ContactInfo.

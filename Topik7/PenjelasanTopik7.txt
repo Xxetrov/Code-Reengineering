@@ -1,0 +1,14 @@
+Penjasalan topik 7
+Lazy class: 
+Merupakan sebuah class yang tidak mempunyai fungsi yang banyak sehingga menyebabkan code smell. 
+Untuk memperbaiki code smell yang diberikan, Dalam Package Company, class workers memiliki code 
+smell Lazy class karena hanya memiliki method2 dasar.
+Sehingga cara untuk memperbaikinya adalah untuk menambah method fungsional seperti salaryTax() Sehingga 
+class dapat lebih berguna
+
+Data Class:
+Merupakan sebuah smelly code dimana class tersebut hanya sebagai setters and getters atau tempat menampung
+data untuk kelas lain. Dari code smell yang diberikan, Maka kita perlu memindahkan kalkulasi distance dalam satu
+method static getDistance dalam class Coordinates dan untuk main class kita hanya perlu menggunakan method. Sehingga
+dalam main class kita hanya perlu memanggil method getDistance. 
+
