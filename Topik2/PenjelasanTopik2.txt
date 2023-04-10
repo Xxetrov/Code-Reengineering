@@ -1,0 +1,11 @@
+Kevin Jason Daniel - 2501991025
+Alexssandro Nicholson Riandi - 2501984442
+Vincent - 2501992343
+
+Topik Kelompok 2:
+
+Data clumps:
+Pada code ini terdapat smelly code berjenis Data clumps yaitu, sebuah jenis code smell yang terjadi ketika ada  ketika ada beberapa parameter atau variabel yang sering digunakan secara bersamaan sehingga membuat kode tidak terstruktur rapih. Solusi untuk smelly code ini adalah untuk membuat class baru yaitu RentalPeriod. Kemudian kita akan memindahkan method getStart() dan getEnd() dari class rental dan movie ke class baru tersebut. Dengan itu, kita code akan lebih terorganisir karena class dan rental dapat memanggil method tersebut menggunakan objek. 
+
+Long paramater:
+Pada code ini terdapat smelly code berjenis long param, yaitu sebuah jenis code semll yang terjadi ketika sebuah method atau function mempunyai banyak paramater sehingga membuat kode menjadi ribet dan sulit untuk dipahami. Code juga akan menjadi lebih sulit jika ingin dirubahd atau diperbaiki.Solusinya untuk code ini, kita menggunakan objek User sebagai paramater dari balanceNotif sehingga paramater bisa menjadi lebih sedikit. 
